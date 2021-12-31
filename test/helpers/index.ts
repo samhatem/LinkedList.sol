@@ -1,1 +1,3 @@
 export * from "./deploy";
+
+export const SENTINEL_ADDRESS = "0x0000000000000000000000000000000000000001";

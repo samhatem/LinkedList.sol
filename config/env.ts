@@ -8,6 +8,6 @@ if (!process.env.MNEMONIC) {
     throw new Error("Please set your MNEMONIC in a .env file");
 }
 
-export const mnemonic: string = process.env.MNEMONIC;
+export const mnemonic: string | undefined = process.env.MNEMONIC;
 export const infuraApiKey = process.env.INFURA_API_KEY;
 export const maticVigilApiKey = process.env.MATICVIGIL_API_KEY;
